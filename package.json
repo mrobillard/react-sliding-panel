@@ -1,0 +1,27 @@
+{
+  "name": "react-sliding-panel",
+  "version": "1.0.0",
+  "description": "A sliding panel example with React",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrobillard/react-sliding-panel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrobillard/react-sliding-panel/issues"
+  },
+  "homepage": "https://github.com/mrobillard/react-sliding-panel#readme",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
