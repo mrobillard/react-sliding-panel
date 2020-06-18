@@ -1,24 +1,39 @@
 import Head from 'next/head';
 
+import SlidingMenu from '../components/sliding-menu/sliding-menu';
+
 function HomePage() {
+  const currentDate = new Date();
+
   return (
     <>
       <Head>
         <title>React Sliding Panel</title>
       </Head>
-      <div className='header-container'></div>
+      <div className='header-container'>
+        <span>
+          <SlidingMenu />
+        </span>
+      </div>
       <div className='center-container'>
         <span>React Sliding Panel Example</span>
       </div>
       <div className='footer-container'>
         <footer>
-          <span>Matt Robillard &copy;</span>
+          <span>Matt Robillard &copy; {currentDate.getFullYear()}</span>
         </footer>
       </div>
       <style jsx>{`
         .header-container {
           width: 100vw;
           height: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+        }
+
+        .header-container span {
+          margin-right: 15px;
         }
 
         .center-container {
