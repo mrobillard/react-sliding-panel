@@ -1,0 +1,9 @@
+body {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  min-width: 100vw;
+
+  margin: 0;
+  padding: 0;
+}
