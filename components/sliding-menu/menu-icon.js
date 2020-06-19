@@ -18,7 +18,7 @@ export default ({ clickHandler, open }) => (
         width: 28px;
         height: 2px;
         margin: 0 0 5px 0;
-        background-color: #fff;
+        background-color: #3068b1;
         transition: all 450ms ease-in-out;
       }
 
@@ -27,17 +27,17 @@ export default ({ clickHandler, open }) => (
       }
 
       .button-closer div:nth-child(1) {
-        background-color: #000;
+        background-color: #3068b1;
         transform: rotate(45deg) translate(4px, 0px) scaleX(0.49);
       }
 
       .button-closer div:nth-child(2) {
-        background-color: #000;
+        background-color: #3068b1;
         transform: translateX(-8px);
       }
 
       .button-closer div:nth-child(3) {
-        background-color: #000;
+        background-color: #3068b1;
         transform: rotate(-45deg) translate(4px, 0px) scaleX(0.49);
       }
 

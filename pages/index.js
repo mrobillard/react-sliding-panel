@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import SlidingMenu from '../components/sliding-menu/sliding-menu';
+import H1 from '../components/heading';
 
 function HomePage() {
   const currentDate = new Date();
@@ -16,7 +17,7 @@ function HomePage() {
         </span>
       </div>
       <div className='center-container'>
-        <span>React Sliding Panel Example</span>
+        <H1>React Sliding Panel Example</H1>
       </div>
       <div className='footer-container'>
         <footer>
@@ -33,7 +34,8 @@ function HomePage() {
         }
 
         .header-container span {
-          margin-right: 15px;
+          margin-right: 25px;
+          margin-top: 15px;
         }
 
         .center-container {
@@ -43,12 +45,6 @@ function HomePage() {
           height: calc(100vh - 70px);
           min-height: 500px;
           width: 100vw;
-        }
-
-        .center-container span {
-          color: #fff;
-          font-family: sans-serif;
-          font-size: 24px;
         }
 
         .footer-container {
@@ -69,7 +65,7 @@ function HomePage() {
 
         .footer-container span {
           color: #fff;
-          font-family: sans-serif;
+          font-weight: 300;
         }
       `}</style>
     </>
